@@ -1,0 +1,65 @@
+
+.footer-section {
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    gap: 24px;
+  }
+  
+  
+  .icons {
+    display: flex;
+    border: solid 1px #222;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  
+  .icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 30%;
+    background-color: #222;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* .icons i:hover {
+    background-color: #555;
+  } */
+  
+  .icon-facebook:hover {
+    background: linear-gradient(
+      45deg,
+      #405de6,
+      #463cd2,
+      #4c3ab4,
+      #3582c1,
+      #7130e1,
+      #4f1ffd
+    );
+    /* Color de Facebook */
+  }
+  
+  .icon-twitter:hover {
+    color: #1da1f2;
+    /* Color de Twitter */
+  }
+  
+  .icon-linkedin:hover {
+    color: #0077b5;
+    /* Color de LinkedIn */
+  }
+  
+  .icon-github:hover {
+    color: #333;
+    /* Color de GitHub */
+  }
