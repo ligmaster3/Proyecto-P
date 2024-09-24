@@ -685,6 +685,10 @@ header .navbar {
     border-bottom: 4px solid black;
     border-right: 4px solid black;
 }
+.h_content .h_img {
+  width: 350px;
+  height: auto;
+}
 @media (max-width: 768px) {
  .h_content {
   display: flex;
@@ -698,5 +702,9 @@ header .navbar {
   width: 100%;;
   margin: 0 20px;
  }
+ .h_content .h_img {
+  width: 250px;
+  height: auto;
+}
 }
 /*  */
