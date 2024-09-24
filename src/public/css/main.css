@@ -233,7 +233,9 @@ header .navbar {
       flex-direction: row;
       padding: 20px;
   }
- 
+  .section_wrapper1  img {
+    padding-left: 18px;
+}
 }
   
 
@@ -273,6 +275,16 @@ header .navbar {
   .wrapper_text .btn-custom a {
     margin: 0;
     text-align: center;
+  }
+  .sepa {
+    height: 100vh;
+  }
+  .sepa img {
+    height: 500px;
+  }
+  .section_wrapper1 .col-md-6 img {
+    margin-left: 15px;
+    
   }
 }
   
@@ -324,6 +336,7 @@ header .navbar {
   background-color: rgba(1, 188, 242, .3);
   color: #028ccf;
 }
+
 
 .separador {
     width: 100%;
